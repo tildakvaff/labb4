@@ -46,8 +46,7 @@ def makechildren(startord,q):
             if ordet not in gamla:
                 q.enqueue(ordet)
                 gamla.put(ordet)
-                if q.isEmpty():
-                    return q.isEmpty()
+
                 
                 
 
